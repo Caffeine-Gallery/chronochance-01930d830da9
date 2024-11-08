@@ -1,0 +1,7 @@
+service : {
+  endTimer: () -> (bool);
+  getRandomQuote: () -> (text);
+  getSessionCount: () -> (nat) query;
+  getTimerStatus: () -> (opt int) query;
+  startTimer: () -> (int);
+}

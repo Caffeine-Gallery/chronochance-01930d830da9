@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer with Quotes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quote-container">
+            <p id="quote">Ready to focus?</p>
+        </div>
+        
+        <div id="timer-container">
+            <div id="timer">25:00</div>
+            <button id="startBtn">Start Focus Session</button>
+            <button id="stopBtn" disabled>End Session</button>
+        </div>
+
+        <div id="stats-container">
+            <p>Completed Sessions: <span id="sessionCount">0</span></p>
+        </div>
+
+        <div id="loading" class="loading-spinner"></div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
